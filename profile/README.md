@@ -164,4 +164,4 @@ and conda-forge automatically.
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=serapeum-org/Hapi,serapeum-org/pyramids,serapeum-org/earthlens,serapeum-org/statista&type=Date)](https://star-history.com/#serapeum-org/Hapi&serapeum-org/pyramids&serapeum-org/earthlens&serapeum-org/statista&Date)
+[![Star History Chart](https://api.star-history.com/chart?repos=serapeum-org/Hapi%2Cserapeum-org/pyramids%2Cserapeum-org/statista%2Cserapeum-org/earthlens&type=timeline&legend=top-left)](https://www.star-history.com/?repos=serapeum-org%2FHapi%2Cserapeum-org%2Fpyramids%2Cserapeum-org%2Fstatista%2Cserapeum-org%2Fearthlens&type=timeline&legend=top-left)
