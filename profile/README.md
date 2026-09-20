@@ -18,21 +18,14 @@ graph TD
     digital_rivers["digital-rivers"]
     earthlens["earthlens"]
     earthstudio["earthstudio"]
-    file_path_tools["file_path_tools"]
-    gee_utils["gee_utils"]
-    geopandas_tools["geopandas-tools"]
     geostatista["geostatista"]
     hpc["hpc"]
     hydrological_models["hydrological-models"]
-    predictors["predictors"]
     pyramids["pyramids"]
     pyramids_eo["pyramids-eo"]
-    rasterdb_utils["rasterdb-utils"]
     serapeum["serapeum"]
     serapeum_utils["serapeum_utils"]
-    sql_tools["sql_tools"]
     statista["statista"]
-    unicloud["unicloud"]
 
     %% required
     Digital_Earth --> pyramids
@@ -48,16 +41,11 @@ graph TD
     cleopatra --> hpc
     digital_rivers --> pyramids
     earthlens --> pyramids
-    gee_utils --> geopandas_tools
-    gee_utils --> unicloud
     geostatista --> pyramids
     hydrological_models --> Hapi
     hydrological_models --> pyramids
-    predictors --> gee_utils
     pyramids --> hpc
     pyramids_eo --> pyramids
-    rasterdb_utils --> sql_tools
-    sql_tools --> file_path_tools
 
     %% optional — reached only through an extra
     Hapi -.->|inputs → ecmwf| earthlens
@@ -84,7 +72,7 @@ Dashed arrows are optional — the label reads `<extra on this package> → <ext
 A dashed arrow beside a solid one is an extra that upgrades a dependency the package already requires.
 Only runtime dependencies and installable extras are shown; contributor-only dependency groups are omitted.
 
-11 further repositories neither depend on these packages nor are depended on by them, so they are not drawn here.
+12 further repositories neither depend on these packages nor are depended on by them, so they are not drawn here.
 
 <!-- dependency-graph:end -->
 
